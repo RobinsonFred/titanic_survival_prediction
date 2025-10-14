@@ -26,7 +26,7 @@ def fit_model_and_predict(model: BaseEstimator,
       return predictions
 
 class RandomForestModel:
-    
+    # current Kaggle score: 0.78947
     @staticmethod
     def create_model() -> RandomForestClassifier:
         model = RandomForestClassifier(n_estimators=100, 
